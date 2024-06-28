@@ -1,4 +1,4 @@
-module github.com/asticode/go-astits
+module github.com/lfleuter/go-astits-custom
 
 go 1.13
 

@@ -16,7 +16,7 @@ import (
 	"syscall"
 
 	"github.com/asticode/go-astikit"
-	"github.com/asticode/go-astits"
+	"github.com/lfleuter/go-astits-custom"
 	"github.com/pkg/profile"
 )
 
