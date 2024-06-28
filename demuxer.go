@@ -172,6 +172,7 @@ func (dmx *Demuxer) NextData() (d *DemuxerData, err error) {
 		// Parse data
 		if ds, err = parseData(ps, dmx.optPacketsParser, dmx.programMap); err != nil {
 			err = fmt.Errorf("TEST astits: building new data failed: %w", err)
+			continue
 		}
 
 		// Update data
