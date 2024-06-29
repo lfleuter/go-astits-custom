@@ -14,7 +14,7 @@ const syncByte = '\x47'
 
 // Errors
 var (
-	ErrNoMorePackets                = errors.New("astits: no more packets")
+	ErrNoMorePackets                = errors.New("TEST astits: no more packets")
 	ErrPacketMustStartWithASyncByte = errors.New("astits: packet must start with a sync byte")
 )
 
